@@ -1,7 +1,8 @@
-# Workflow名
+# Workflow name
 name: Shell Commands
-# イベントトリガー
-# Git Pushした時にこのワークフローを実行する
+
+# event trigger
+# in this example, execute when you push 
 on: [push]
 
 jobs:
