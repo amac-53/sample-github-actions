@@ -13,7 +13,8 @@ jobs:
     steps:
       # step1
       - name: echo a string
-        run: echo "Hello World"
+        # run: echo "Hello World"
+        run: eecho "Hello World"
       # step2
       - name: multiline script
         run: | # concatenate with pipe when you add other orders
